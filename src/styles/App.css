@@ -14,3 +14,7 @@ button{
 .bg-pink{
 	background-color:pink;
 }
+.main{
+    padding: 5px;
+    margin: 10px;
+}
