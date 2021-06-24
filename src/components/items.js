@@ -1,22 +1,17 @@
 import React, { useState } from "react";
-
 function Items({ states }) {
   const [state, setState] = useState(0);
   const [city, setCity] = useState(state);
   const [landMark, setLandMark] = useState(city);
-
   const changeState = (e) => {
     setState(e.target.value);
   };
-
   const updateCity = (e) => {
     setCity(e.target.value);
   };
-
   const updateLandmark = (e) => {
     setLandMark(e.target.value);
   };
-
   return (
     <div className="container">
       <div id="state-name">
@@ -68,5 +63,4 @@ function Items({ states }) {
     </div>
   );
 }
-
 export default Items;
